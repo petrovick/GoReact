@@ -1,30 +1,23 @@
 import React, { Component, Fragment } from "react";
 import PropTypes from "prop-types";
 import PostHeader from "./PostHeader";
-import "../style.scss";
 
 const Post = props => (
   <Fragment>
-    <PostHeader />
-    <div className="post-header-container">
-      <img className="avatar" src={props.dados.avatar} />
-      <img src={props.dados.avatar} />
-      <label>{props.dados.nome}</label>
-      <label>{props.dados.tempoPost}</label>
+    <div className="post">
+      <PostHeader avatar={props.data.avatar} name={props.data.name} time={props.data.time} />
+      <hr />
+      <p>{props.data.text}</p>
     </div>
   </Fragment>
 );
 
-Post.defaultProps = {
-  children: "Salvar"
-};
-
 Post.propTypes = {
-  dados: PropTypes.shape({
+  data: PropTypes.shape({
     id: PropTypes.string,
-    nome: PropTypes.string,
+    name: PropTypes.string,
     avatar: PropTypes.string,
-    tempoPost: PropTypes.number.isRequired,
+    time: PropTypes.number.isRequired,
     text: PropTypes.string.isRequired
   })
 };

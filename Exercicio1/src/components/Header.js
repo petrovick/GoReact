@@ -1,5 +1,4 @@
-import React, { Component, Fragment } from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import "../style.scss";
 
 const Header = props => (
