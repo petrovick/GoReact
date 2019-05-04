@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from "react";
 import PropTypes from "prop-types";
 import { render } from "react-dom";
-import Post from "./Post";
+import Post from "./components/Post";
+import Header from "./components/Header";
 import "./style.scss";
 
 class App extends Component {
@@ -45,6 +46,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
+        <Header />
         <Post dados={this.state.dados} />
       </Fragment>
     );

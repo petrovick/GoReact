@@ -1,17 +1,18 @@
 import React, { Component, Fragment } from "react";
 import PropTypes from "prop-types";
-import "./style.scss";
+import PostHeader from "./PostHeader";
+import "../style.scss";
 
 const Post = props => (
-  <div className="main-wrapper">
-    <div className="content">
-      <div className="provider">
-        <img src={props.dados.avatar} />
-        <label>{props.dados.nome}</label>
-        <label>{props.dados.tempoPost}</label>
-      </div>
+  <Fragment>
+    <PostHeader />
+    <div className="post-header-container">
+      <img className="avatar" src={props.dados.avatar} />
+      <img src={props.dados.avatar} />
+      <label>{props.dados.nome}</label>
+      <label>{props.dados.tempoPost}</label>
     </div>
-  </div>
+  </Fragment>
 );
 
 Post.defaultProps = {
