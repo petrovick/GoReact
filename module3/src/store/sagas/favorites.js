@@ -5,11 +5,12 @@ import { Creators as FavoriteActions } from "../ducks/favorites";
 
 export function* addFavorite(action) {
     try {
+        debugger;
         const { data } = yield call(
             api.get,
             `/repos/${action.payload.repository}`
         );
-
+        debugger;
         const isDuplicated = yield select(state =>
             state.favorites.data.find(favorite => favorite.id == data.id)
         );
@@ -28,6 +29,7 @@ export function* addFavorite(action) {
             yield put(FavoriteActions.addFavoriteSuccess(repositoryData));
         }
     } catch (err) {
+        debugger;
         yield put(
             FavoriteActions.addFavoriteFailure("erro ao adicionar repositório.")
         );
