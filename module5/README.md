@@ -4,9 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-yarn global add json-server
-json-server server.json -p 3001 -w -d 500
-
 ### `npm start`
 
 Runs the app in the development mode.<br>
