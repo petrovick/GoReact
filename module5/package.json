@@ -1,40 +1,50 @@
 {
-  "name": "module5",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "axios": "^0.19.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-redux": "^7.0.3",
-    "react-scripts": "3.0.1",
-    "redux": "^4.0.1",
-    "redux-saga": "^1.0.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.13.2",
-    "redux-mock-store": "^1.5.3"
-  }
+    "name": "module5",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "axios": "^0.19.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-redux": "^7.0.3",
+        "react-scripts": "3.0.1",
+        "redux": "^4.0.1",
+        "redux-saga": "^1.0.2"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "jest": {
+        "collectCoverageFrom": [
+            "src/store/ducks/*.js",
+            "src/store/sagas/*.js",
+            "src/*.js",
+            "!src/setupTests.js",
+            "!src/index.js"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "axios-mock-adapter": "^1.16.0",
+        "enzyme": "^3.9.0",
+        "enzyme-adapter-react-16": "^1.13.2",
+        "redux-mock-store": "^1.5.3"
+    }
 }
