@@ -34,7 +34,7 @@ React Projects
 
 ## Get in Contact
 
-- [Whatsapp][whatsapp]: +55 (34) 99838-9076
+- Whatsapp: [+55 (34) 99838-9076][whatsapp]
 - Email: petrovickg@hotmail.com
 
 ## License
