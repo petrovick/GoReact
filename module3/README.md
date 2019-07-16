@@ -1,5 +1,9 @@
 Sample project using Duck/Saga Patterns
 
+### Repo List Page (Duck/Saga Pattern)
+
+![MainPage](https://raw.githubusercontent.com/petrovick/GoReact/master/module3/SolutionItems/Images/image1_patterns.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
