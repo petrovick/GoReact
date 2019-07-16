@@ -31,3 +31,12 @@ React Projects Exercises
 ### Album songs
 
 ![MainPage](https://raw.githubusercontent.com/petrovick/GoReact/master/module4/SolutionItems/Images/image3_albumsongs.png)
+
+## Get in Contact
+
+Whatsapp: +55 (34) 99838-9076
+Email: petrovickg@hotmail.com
+
+## License
+
+This project is licensed under the MIT License
