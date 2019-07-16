@@ -34,9 +34,11 @@ React Projects
 
 ## Get in Contact
 
-- [Whatsapp][https://api.whatsapp.com/send?phone=5534998389076]: +55 (34) 99838-9076
+- [Whatsapp][whatsapp]: +55 (34) 99838-9076
 - Email: petrovickg@hotmail.com
 
 ## License
 
 This project is licensed under the MIT License
+
+[whatsapp]:[https://api.whatsapp.com/send?phone=5534998389076]
