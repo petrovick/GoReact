@@ -17,3 +17,17 @@ React Projects Exercises
 ### Repo List Page (Duck/Saga Pattern)
 
 ![MainPage](https://raw.githubusercontent.com/petrovick/GoReact/master/module3/SolutionItems/Images/Image1_patterns.png)
+
+## Module 4
+
+### Algum list
+
+![MainPage](https://raw.githubusercontent.com/petrovick/GoReact/master/module4/SolutionItems/Images/image1_mainpage.png)
+
+### Loading
+
+![MainPage](https://raw.githubusercontent.com/petrovick/GoReact/master/module4/SolutionItems/Images/image2_loading.png)
+
+### Album songs
+
+![MainPage](https://raw.githubusercontent.com/petrovick/GoReact/master/module4/SolutionItems/Images/image3_albumsongs.png)
