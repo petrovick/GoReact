@@ -9,6 +9,7 @@ App based on Spotify using React
 - [redux][redux]: App state managment
 - [redux-saga][redux-saga]: Is a library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures.
 - [styled-components][styled-components]: Make use of css as components as JavaScript
+- [reactotron][reactotron]: Redux-saga state debugging
 
 ### Algum list
 
@@ -29,3 +30,4 @@ App based on Spotify using React
 [redux]: https://redux.js.org
 [redux-saga]: https://github.com/redux-saga/redux-saga
 [styled-components]: https://www.styled-components.com
+[reactotron]: https://github.com/infinitered/reactotron
