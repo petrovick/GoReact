@@ -1,6 +1,6 @@
 # RocketseatReact
 
-React Projects Exercises
+React Projects
 
 ## Module 2
 
