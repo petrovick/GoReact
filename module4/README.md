@@ -1,14 +1,14 @@
 App based on Spotify using React
 
-### Used Libraries/Frameworks
+## Used Libraries/Frameworks
 
-[axios][axios]: Request Maker
-[json-server][json-server]: JSON Server simulator
-[prop-types][prop-types]: Types checking for React props
-[rc-slider][rc-slider]: Slider to move song back-and-forth
-[redux][redux]: App state managment
-[redux-saga][redux-saga]: Is a library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures.
-[styled-components][styled-components]: Make use of css as components as JavaScript
+- [axios][axios]: Request Maker
+- [json-server][json-server]: JSON Server simulator
+- [prop-types][prop-types]: Types checking for React props
+- [rc-slider][rc-slider]: Slider to move song back-and-forth
+- [redux][redux]: App state managment
+- [redux-saga][redux-saga]: Is a library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures.
+- [styled-components][styled-components]: Make use of css as components as JavaScript
 
 ### Algum list
 
