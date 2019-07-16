@@ -2,7 +2,7 @@
 
 React Projects Exercises
 
-### Module 2
+## Module 2
 
 ### Main Page
 
